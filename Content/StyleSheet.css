@@ -1,0 +1,64 @@
+﻿* {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 20px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    /* Set nav bar on top of all elements */
+    z-index: 99;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    line-height: 50px
+
+}
+
+.sect {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.subsection {
+    height: 100%;
+    background-color: bisque;
+}
+
+#homeSect {
+    background-image: url(../img/Logo.jpg);
+}
+
+#productSect {
+    /*Place Holder*/
+    background-color: bisque;
+}
+
+#servicesSect {
+    background-image: url(../img/nate3.jpg);
+}
+
+#portfolioSect {
+    /*Place Holder*/
+    background-color: bisque;
+}
+
+#contactSect {
+    background-image: url(../img/forgotify-bkg.jpg);
+}
+
+html, body {
+    height: 100%;
+}
