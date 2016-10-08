@@ -3,16 +3,17 @@
 <head>
     <title>Frank Promo</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="Content/StyleSheet.css" rel="stylesheet" />
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.css" rel="stylesheet" />
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet" />
     <script src="Scripts/jquery-3.1.0.js"></script>
     <script src="Scripts/JavaScript.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
 
 </head>
-<body>
+<body style="margin:0 5px;">
 
     <nav>
         <a id="home" href="#homeSect">HOME</a>
@@ -21,19 +22,59 @@
         <a id="portfolio" href="#portfolioSect">PORTFOLIO</a>
         <a id="contact" href="#contactSect">CONTACT</a>
     </nav>
+
     <div class="sect" id="homeSect">
-        <br />
-        <div class="jumbotron">
-            <h1>Frank's Promo Page</h1>
-            <p>This is where I want to talk about my company and why we are great.</p>
+        <div class="container-fluid">
+            <div class="jumbotron navSpace">
+                <div class="row text-center">
+                    <div class="col-xs-12">
+                        <h1>Frank's Promo Page</h1>
+                    </div>
+                </div>
+                <p class="text-center">This is where I want to talk about my company and why we are great.</p>
+            </div>
         </div>
     </div>
 
-    <div class="subsection" id="productSect"></div>
-    <div class="sect" id="servicesSect"></div>
-    <div class="subsection" id="portfolioSect"></div>
-    <div class="sect" id="contactSect"></div>
+    <div class="subsection" id="productSect">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 navSpace">
+                    <div class="col-md-12 well">
+                        <h2>Data Analyses</h2>
+                        <h4 class="lead">
+                            Find the answers to complex questions hidden inside your own proprietary data
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-4 navSpace">
+                    <div class="col-md-12 well">
+                        <h2>Front End Web Design</h2>
+                        <h4 class="lead">
+                            Build a professional clean design for your company<br />
+                            Maintain and refine your current website.
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-4 navSpace">
+                    <div class="col-md-12 well">
+                        <h2>Visual Basic for Applications Programming</h2>
+                        <h4 class="lead">
+                            Design and maintian custom built applicaton for:<br />
+                            Word, Excel, Access, Outlook, Power Point, etc.
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+    <div class="sect" id="servicesSect"></div>
+
+    <div class="subsection" id="portfolioSect"></div>
+
+    <div class="sect" id="contactSect"></div>
 
 </body>
 </html>

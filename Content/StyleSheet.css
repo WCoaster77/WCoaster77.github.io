@@ -1,8 +1,4 @@
-﻿* {
-    margin: 0;
-}
-
-h1, h2, h3, h4, h5, h6, p {
+﻿h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 20px;
 }
 
@@ -14,7 +10,7 @@ nav {
     background-color: hsla(0, 0%, 0%, 0.50);
     /* Set nav bar on top of all elements */
     z-index: 99;
-    text-align: center;
+    text-align: left;
 }
 
 nav a {
@@ -37,8 +33,17 @@ nav a {
     background-color: bisque;
 }
 
+.navSpace {
+   margin-top: 90px;
+   margin-left: 0;
+   height: 100%;
+   border-radius:6px;
+}
+
 #homeSect {
-    background-image: url('../img/DTP3a.jpg');
+    background-image: url('../img/DTP3sm.jpg');
+    color:black;
+    color: hsl(240, 0%, 30%);
 }
 
 #productSect {
