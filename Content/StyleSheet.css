@@ -41,7 +41,7 @@ nav a {
 }
 
 #homeSect {
-    background-image: url(http://res.cloudinary.com/data-detective/image/upload/v1475940094/Promo/DTP3sm_rxk8pb.jpg);
+    background-image: url('../img/DTP3sm.jpg');
     color:black;
     color: hsl(240, 0%, 30%);
 }
@@ -51,13 +51,17 @@ nav a {
     background-color: bisque;
 }
 
+#servicesSect {
+    background-image: url(../img/nate3.jpg);
+}
+
 #portfolioSect {
     /*Place Holder*/
-    background-image: url(http://res.cloudinary.com/data-detective/image/upload/v1471796677/Promo/tileable-dark-wood-textures-8_e6gwz7.jpg);
+    background-color: bisque;
 }
 
 #contactSect {
-    background-image: url(http://res.cloudinary.com/data-detective/image/upload/v1475937593/Promo/nate3_y8bwcs.jpg);
+    background-image: url(../img/forgotify-bkg.jpg);
 }
 
 html, body {
