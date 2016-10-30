@@ -2,23 +2,30 @@
     margin-bottom: 20px;
 }
 
+img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
 nav {
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: black;
     background-color: hsla(0, 0%, 0%, 0.50);
+    text-align: center;
     /* Set nav bar on top of all elements */
     z-index: 99;
-    text-align: left;
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
     margin-left: 30px;
-    line-height: 50px
-
+    /*line-height: 70px*/
+    font-size: 250%;
 }
 
 .sect {
@@ -40,15 +47,39 @@ nav a {
    border-radius:6px;
 }
 
+/* Make equal height with table styles */
+
+/*@media (min-width: 1280px) {
+  .table-row {
+    display: table;
+    table-layout: fixed;
+  }
+
+  .table-row [class^="col-"] {
+    display: table-cell;
+    float: none;
+  }
+}*/
+
+#jumboColor {
+    background-color: rgb(128, 128, 128);
+    background-color: rgba(128, 128, 128, .75);
+    color: black;
+    color: rgba(0,0,0,.65);
+}
+
 #homeSect {
     background-image: url(http://res.cloudinary.com/data-detective/image/upload/v1475940094/Promo/DTP3sm_rxk8pb.jpg);
     color:black;
     color: hsl(240, 0%, 30%);
 }
 
-#productSect {
+#aboutSect {
     /*Place Holder*/
     background-color: bisque;
+    background-color: rgba(215, 185, 149, 0.75);
+    /*color:black;*/
+    color: red;
 }
 
 #portfolioSect {
@@ -62,4 +93,45 @@ nav a {
 
 html, body {
     height: 100%;
+}
+
+.footer {
+    /*background: #061D25;*/
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    background-color: hsla(0, 0%, 0%, 0.60);
+    /* Set footer on top of all elements*/
+    z-index: 99;
+}
+
+.footer a {
+    /*color: #70726F;*/
+    color: #fff;
+    font-size: 40px;
+    padding: 10px;
+    border-right: 1px solid rgb(128, 128, 128);
+    border-right: 1px solid hsla(0, 0%, 0%, 0.50);
+    -webkit-transition: transition all .5s ease;
+    -o-transition: transition all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.footer a:first-child {
+    border-left: 1px solid rgb(128, 128, 128);
+    border-left: 1px solid hsla(0, 0%, 0%, 0.50);
+}
+
+.footer a:hover {
+    color: #0094ff;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .75s ease;
 }
