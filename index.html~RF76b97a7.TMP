@@ -50,24 +50,13 @@
     <div class="container-fluid">
         <h1>My First JavaScript</h1>
 
-        <p id="myPar">I am a paragraph</p>
-        <div id="myDiv">I am a div</div>
-        <!--<p id="demo"></p>-->
-
-        <p>
-            <button type="button" onclick="myFunc()">Try This Dude!</button>
-        </p>
+        <p id="demo"></p>
 
         <script>
-            function myFunc() {
-                //var x = "Frank";
-                //var y = "Hillyer";
-                document.getElementById(myPar).innerHTML = "Hello you Java you";
-                document.getElementById(myDiv).innerHTML = "This is starting to work!";
-                //document.getElementById("demo").innerHTML = x + " " + y;
-            }
+            var x = "Frank";
+            var y = "Hillyer";
+            document.getElementById("demo").innerHTML = x + " " + y;
         </script>
-
     </div>
 
     <div class="subsection" id="aboutSect">
