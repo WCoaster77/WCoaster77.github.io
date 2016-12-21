@@ -2,16 +2,23 @@
     margin-bottom: 20px;
 }
 
-img {
-    max-width: 100%;
-    height: 100%;
-    object-fit: contain;
-    overflow: hidden;
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    /* Set nav bar on top of all elements */
+    z-index: 99;
+    text-align: left;
 }
 
-.jumbotron {
-    background-color: black;
-    background-color: hsla(0, 0%, 0%, 0.30) !important;
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    line-height: 50px
+
 }
 
 .sect {
@@ -34,73 +41,29 @@ img {
 }
 
 #homeSect {
-    background-image: url(http://res.cloudinary.com/data-detective/image/upload/v1475940094/Promo/DTP3sm_rxk8pb.jpg);
-    color: #fff;
+    background-image: url('../img/DTP3sm.jpg');
+    color:black;
+    color: hsl(240, 0%, 30%);
 }
 
-#aboutSect {
+#productSect {
     /*Place Holder*/
     background-color: bisque;
-    background-color: rgba(215, 185, 149, 0.75);
-    /*color:black;*/
+}
+
+#servicesSect {
+    background-image: url(../img/nate3.jpg);
 }
 
 #portfolioSect {
     /*Place Holder*/
-    background-image: url(http://res.cloudinary.com/data-detective/image/upload/v1471796677/Promo/tileable-dark-wood-textures-8_e6gwz7.jpg);
+    background-color: bisque;
 }
 
 #contactSect {
-    background-image: url(http://res.cloudinary.com/data-detective/image/upload/v1475937593/Promo/nate3_y8bwcs.jpg);
+    background-image: url(../img/forgotify-bkg.jpg);
 }
 
 html, body {
     height: 100%;
-}
-
-.navbar-inverse {
-  background-color: black;
-  background-color: hsla(0, 0%, 0%, 0.60);
-  border-color: #080808;
-}
-
-.footer {
-    /*background: #061D25;*/
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 70px;
-    width: 100%;
-    background-color: black;
-    background-color: hsla(0, 0%, 0%, 0.60);
-    /* Set footer on top of all elements*/
-    z-index: 99;
-}
-
-.footer a {
-    /*color: #70726F;*/
-    color: #fff;
-    font-size: 40px;
-    padding: 10px;
-    border-right: 1px solid rgb(128, 128, 128);
-    border-right: 1px solid hsla(0, 0%, 0%, 0.50);
-    -webkit-transition: transition all .5s ease;
-    -o-transition: transition all .5s ease;
-    -moz-transition: all .5s ease;
-    transition: all .5s ease;
-}
-
-.footer a:first-child {
-    border-left: 1px solid rgb(128, 128, 128);
-    border-left: 1px solid hsla(0, 0%, 0%, 0.50);
-}
-
-.footer a:hover {
-    color: #0094ff;
-    -webkit-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    transition: all .75s ease;
 }
