@@ -5,10 +5,9 @@
 
 //Allow screen to Scroll to selected section
 function setBindings() {
-    $("nav ul li a").click(function (tip) {
+    $(".navbar ul li a").click(function (tip) {
         tip.preventDefault();
-        var sectionID = "#" + tip.currentTarget.id + "Sect";
-        //alert('button id ' + sectionID);
+        var sectionID = $(this).attr('href');
 
         $("html body").animate({
             scrollTop: $(sectionID).offset().top
